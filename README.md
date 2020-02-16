@@ -10,14 +10,15 @@ Can also position by typing a time value
 
 ## Clips
 
-### Selection
+### Clip election
 
-To select a clip
-Click it in the timeline – also selects linked clips
+Click the target clip  in the timeline – also selects linked clips
+
 Alt-click – to select just the video or audio, or one clip in a group
+
 Shift click / shift drag to extend selection
 
-Alt Also works for moving (dragging a clip)
+Alt - Also works for moving (dragging a clip)
 
 ### Moving
 
@@ -45,3 +46,14 @@ Replace clip – select in assets manager and then right click the target in the
 Timeline -> Snap to enable / disable snapping to beginning or end.
 
 Clip->Reveal in project – to show the source asset of a clip in the timeline
+
+# commands
+
+|key | Action|
+|---|---|
+|Space|start/stop replay|
+|s|Toggle timeline snap|
+|\|Fit visible|
+|-|Zoom out|
+|=|Zoom in|
+
