@@ -1,5 +1,7 @@
 # Premiere-elements-notes
 
+Taken from https://helpx.adobe.com/pdf/premiere-elements_reference.pdf
+
 ## Current time ops
 
 Drag the current-time indicator (shift snaps to edge of closest clip / marker as gets near them)
