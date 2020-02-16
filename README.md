@@ -50,7 +50,7 @@ Clip->Reveal in project – to show the source asset of a clip in the timeline
 # commands
 
 |key | Action|
-:|---|---|
+|:---|:---|
 |Space|start/stop replay|
 |s|Toggle timeline snap|
 |\\\|Fit visible|
