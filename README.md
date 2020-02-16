@@ -53,7 +53,7 @@ Clip->Reveal in project – to show the source asset of a clip in the timeline
 |:---|:---|
 |Space|start/stop replay|
 |s|Toggle timeline snap|
-|\\\|Fit visible|
+|\\\ |Fit visible|
 |-|Zoom out|
 |=|Zoom in|
 
