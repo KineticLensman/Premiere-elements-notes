@@ -12,7 +12,7 @@ Can also position by typing a time value
 
 ## Clips
 
-### Clip election
+### Clip selection
 
 Click the target clip  in the timeline – also selects linked clips
 
