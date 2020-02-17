@@ -1,10 +1,14 @@
-# Premiere-elements-notes
+# Notes for Premiere elements
 
 Taken from https://helpx.adobe.com/pdf/premiere-elements_reference.pdf
 
-## Current time ops
+All of these notes are for the Expert view.
 
+## Timeline
 
+Clips in Higher tracks (e.g. Video 2) overlay clips in lower tracks
+
+### Current time
 
 Position the current-time indicator by
 * Directly dragging the current-time indicator (shift-drag snaps to markers or edge of closest clip)
@@ -13,31 +17,34 @@ Position the current-time indicator by
 
 ## Clips
 
-### Selecting a click
+### Selecting a clip
 
-Click the target clip in the timeline – automatically selects linked clips (e.g.  audio associated with a video clip)
+`Click` the target clip in the timeline. Automatically selects linked clips (e.g. the audio associated with a video clip)
 
-Alt-click – only selects the target (i.e., not any linked audio/video)
+`Alt-click` – only selects the target (i.e., not any linked audio/video)
 
-Shift click / shift drag to extend selection
+`Shift click` / `shift drag` to add more clips to a selection
 
-Alt - Also works for moving (dragging a clip)
+`Alt` - Also works for moving (dragging a clip)
 
-### Moving
+### Inserting clips
 
-Drag clip to timeline – shifts all other clips down
+`Timeline->Snap` to toggle clip snapping
 
-Alt drag – only shifts target and linked tracks (e.g. doesn’t change background)
+`Drag` clip to timeline to insert it. The new clip will split an existing clip if it is dropped into the midde of it. All other clips will shift to the right
+'Alt-drag' - as above, but only linked clips will be split or moved. Use to add a new clip without splitting the background soundtrack, for example.
 
-Drag to blank space above timeline to create new video / audio track
+`Drag` clip to blank space above uppermost track in the timeline to create a track for the clip
 
-Drag to monitor panel – e.g. to create picture-in-picture (plus many other options)
+`Drag` clip to monitor panel – to access options such as create picture-in-picture
 
 ### Cutting
 
-Cut a video track – zaps and shifts all other tracks leftward.
+Removing a selected clip. Lots of options. What happens depends on whether the target is selected (video AND audio, i.e. linked clips) or `Alt`-selected (i.e. just video OR audio).
 
-Delete a video track – zaps and doesn’t shift other tracks
+* `Edit->Cut` / `Ctrl-X`: Deletes clip. If linked clips aren't selected, the gap doesn't close (i.e. audio is left in place)
+* `Edit->Delete` / `Shift+Delete`: Deletes clip and doesn't close gap (linked or not)
+* `Edit-Delete and close gap` / `Backspace`: Same as Cut? The gap doesn't close if linked clips aren't selected. 
 
 ### Replacement
 
@@ -46,7 +53,7 @@ Replace clip – select in assets manager and then right click the target in the
 
 ## Other useful things
 
-`Timeline->Snap to enable` / disable snapping to beginning or end.
+`Timeline->Snap` to enable / disable snapping of clips to each other
 
 `Clip->Reveal` in project – to show the source asset of a clip in the timeline
 
