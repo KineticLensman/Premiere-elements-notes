@@ -8,16 +8,16 @@ Taken from https://helpx.adobe.com/pdf/premiere-elements_reference.pdf
 
 Position the current-time indicator by
 * Directly dragging the current-time indicator (shift-drag snaps to markers or edge of closest clip)
-* Clicking the timeline ruler to position the current-time indicator
+* Clicking the timeline ruler
 * Typing a time value
 
 ## Clips
 
-### Clip selection
+### Selecting a click
 
-Click the target clip  in the timeline – also selects linked clips
+Click the target clip in the timeline – automatically selects linked clips (e.g.  audio associated with a video clip)
 
-Alt-click – to select just the video or audio, or one clip in a group
+Alt-click – only selects the target (i.e., not any linked audio/video)
 
 Shift click / shift drag to extend selection
 
@@ -46,11 +46,11 @@ Replace clip – select in assets manager and then right click the target in the
 
 ## Other useful things
 
-Timeline -> Snap to enable / disable snapping to beginning or end.
+`Timeline->Snap to enable` / disable snapping to beginning or end.
 
-Clip->Reveal in project – to show the source asset of a clip in the timeline
+`Clip->Reveal` in project – to show the source asset of a clip in the timeline
 
-# commands
+# Useful commands
 
 |key | Action|
 |:---|:---|
