@@ -1,6 +1,6 @@
-# Notes for Premiere elements
+# JK's notes on Premiere Elements
 
-Taken from https://helpx.adobe.com/pdf/premiere-elements_reference.pdf
+Based on https://helpx.adobe.com/pdf/premiere-elements_reference.pdf
 
 All of these notes are for the Expert view.
 
@@ -23,30 +23,36 @@ Position the current-time indicator by
 
 ### Selecting a clip
 
-`Click` the target clip in the timeline. Automatically selects linked clips (e.g. the audio associated with a target video clip)
-
-`ALT-click` – only selects the target clips (i.e., linked audio/video clips are not selected)
-
-`SHIFT click` / `shift drag` to add more clips to a selection
+* `Click` the target clip in the timeline. Automatically selects linked clips (e.g. the audio associated with a target video clip)
+* `ALT-click` – only selects the target clips (i.e., linked audio/video clips are not selected)
+* `SHIFT click` / `shift drag` to add more clips to a selection
 
 ### Inserting clips
 
-`Timeline->Snap` to toggle clip snapping
+`Timeline->Snap` to toggle clip snapping. Then
 
-`Drag` clip to timeline to insert it. The new clip will split an existing clip if it is dropped into the midde of it. All other clips will shift to the right
-`ALT-drag` - as above, but only linked clips will be split or moved. Use to add a new clip without splitting the background soundtrack, for example.
+* `Drag` clip from Project Assets to timeline to insert it. The new clip will split an existing clip if it is dropped into the midde of it. All other clips will shift to the right
+* `ALT-drag` - as above, but only linked clips will be split or moved. Other clips (e.g. soundtrack) will stay where they were. If the target was `ALT`-selected, it's linked clips will not be affected.
+* `CTRL-drag` as above, but the new clip will overlay (i.e. delete and replace) the existing clip(s). 
+* `Drag` clip to blank space above uppermost track in the timeline to create a track for the clip
+* `Drag` clip to monitor panel – to access options such as create picture-in-picture
 
-`Drag` clip to blank space above uppermost track in the timeline to create a track for the clip
+ 
 
-`Drag` clip to monitor panel – to access options such as create picture-in-picture
-
-### Cutting
+### Cutting a clip
 
 Removing a selected clip. Lots of options. What happens depends on whether the selection includes linked clips (normally selected, i.e. video _AND_ audio) or not (`ALT`-selected, i.e. just video _OR_ just audio))
 
-* `Edit->Cut` / `Ctrl-X`: Deletes clip. If linked clips aren't selected, the gap doesn't close (i.e. audio is left in place)
-* `Edit->Delete` / `SHIFT+DELETE`: Deletes clip and doesn't close gap (linked or not)
-* `Edit-Delete and close gap` / `BACKSPACE`: Same as Cut? The gap doesn't close if linked clips aren't selected. 
+* `Edit->Cut` / `Ctrl-X`: Deletes selected clip. If linked clips aren't selected, the gap doesn't close (i.e. audio is left in place)
+* `Edit->Delete` / `SHIFT+DELETE`: Deletes selected clip and doesn't close gap (linked or not)
+* `Edit-Delete and close gap` / `BACKSPACE`: Same as Cut? If linked clips aren't selected, the gap doesn't close.
+
+### Splitting a clip
+
+Split a clip (and linked clips, depending on what is selected):
+* `Click` the Split clip button on the current time indicator
+* `CTRL-k` to split the clip at the current time indicator
+
 
 ### Replacement
 
@@ -68,6 +74,7 @@ Replace clip – select in assets manager and then right click the target in the
 |\\ |Fit visible|
 |-|Zoom out|
 |=|Zoom in|
+|`CTRL-k `|Split clip|
 
 # Possible citation links for Wikipedia
 
