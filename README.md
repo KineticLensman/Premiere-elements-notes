@@ -4,6 +4,8 @@ Based on https://helpx.adobe.com/pdf/premiere-elements_reference.pdf
 
 All of these notes are for the Expert view.
 
+# Premiere elements
+
 ## Timeline
 
 Clips in Higher tracks (e.g. Video 2) overlay clips in lower tracks
@@ -33,7 +35,7 @@ Position the current-time indicator by
 
 * `Drag` clip from Project Assets to timeline to insert it. The new clip will split an existing clip if it is dropped into the midde of it. All other clips will shift to the right
 * `ALT-drag` - as above, but only linked clips will be split or moved. Other clips (e.g. soundtrack) will stay where they were. If the target was `ALT`-selected, it's linked clips will not be affected.
-* `CTRL-drag` as above, but the new clip will overlay (i.e. delete and replace) the existing clip(s). 
+* `CTRL-drag` as above, but the new clip will overlay (i.e. delete and replace) the existing clip(s) 
 * `Drag` clip to blank space above uppermost track in the timeline to create a track for the clip
 * `Drag` clip to monitor panel – to access options such as create picture-in-picture
 
@@ -41,11 +43,11 @@ Position the current-time indicator by
 
 ### Cutting a clip
 
-Removing a selected clip. Lots of options. What happens depends on whether the selection includes linked clips (normally selected, i.e. video _AND_ audio) or not (`ALT`-selected, i.e. just video _OR_ just audio))
+Removing a selected clip. Lots of options. What happens depends on whether the selection includes linked clips (normally selected, i.e. video _and_ audio) or not (`ALT`-selected, i.e. just video _or_ just audio))
 
 * `Edit->Cut` / `Ctrl-X`: Deletes selected clip. If linked clips aren't selected, the gap doesn't close (i.e. audio is left in place)
 * `Edit->Delete` / `SHIFT+DELETE`: Deletes selected clip and doesn't close gap (linked or not)
-* `Edit-Delete and close gap` / `BACKSPACE`: Same as Cut? If linked clips aren't selected, the gap doesn't close.
+* `Edit-Delete and close gap` / `BACKSPACE`: Same as Cut? If linked clips aren't selected, the gap doesn't close
 
 ### Splitting a clip
 
@@ -76,7 +78,9 @@ Replace clip – select in assets manager and then right click the target in the
 |=|Zoom in|
 |`CTRL-k `|Split clip|
 
-# Possible citation links for Wikipedia
+# Wikipedia
+
+# Possible citation links
 
 https://www.researchgate.net/profile/Campbell_Murn
 
