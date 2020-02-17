@@ -4,11 +4,13 @@ Taken from https://helpx.adobe.com/pdf/premiere-elements_reference.pdf
 
 ## Current time ops
 
-Drag the current-time indicator (shift snaps to edge of closest clip / marker as gets near them)
+Drag the current-time indicator (shift snaps to markers or edge of closest clip)
 
-Click the timeline ruler to position the current-time indicator
+Position the current-time indicator by
 
-Can also position by typing a time value
+* Clicking the timeline ruler to position the current-time indicator
+
+* Typing a time value
 
 ## Clips
 
