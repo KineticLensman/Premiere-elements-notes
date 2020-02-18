@@ -6,6 +6,12 @@ All of these notes are for the Expert view.
 
 # Premiere elements
 
+## Random notes
+
+Use the template project in useful assets
+
+Scale clips to size using FX
+
 ## Timeline
 
 Clips in Higher tracks (e.g. Video 2) overlay clips in lower tracks
