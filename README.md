@@ -73,6 +73,16 @@ Replace clip – select in assets manager and then right click the target in the
 
 `Clip->Reveal` in project – to show the source asset of a clip in the timeline
 
+## Text
+
+To edit, Select the clip and then open the Adjustments window.
+
+The text becomes a project asset.
+
+Can copy and paste these in the asset manager
+
+Use the Fix button to open open an instance for editing
+
 # Useful commands
 
 |key | Action|
