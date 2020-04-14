@@ -83,6 +83,13 @@ Can copy and paste these in the asset manager
 
 Use the Fix button to open open an instance for editing
 
+Rather than copying a text label in the timeline window, instead
+
+* create the text label and set the font, colour, etc that you want
+* go to the project assets window, where the new text now appears as a project asset
+* right click the text label asset and select duplicate
+* drag the new duplicate into the timeline and then edit its text - it doesn't affect the original!
+
 # Useful commands
 
 |key | Action|
